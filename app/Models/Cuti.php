@@ -1,0 +1,16 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Cuti extends Model
+{
+    protected $fillable = [
+        'nama',
+        'jenis_cuti',
+        'tarikh_mula',
+        'tarikh_tamat',
+    ];
+}
